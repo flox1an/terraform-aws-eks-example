@@ -10,6 +10,8 @@ kubectl --kubeconfig kubeconfig_my-cluster apply -f https://raw.githubuserconten
 ```bash
 kubectl --kubeconfig kubeconfig_my-cluster  expose -n ingress-nginx deployment nginx-ingress-controller --type=LoadBalancer
 
-```
+kubectl --kubeconfig kubeconfig_my-cluster get services --all-namespaces
 
+
+```
 
